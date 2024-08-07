@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+pandas
+scikit-learn
+tensorboard
+nibabel
+efficientnet_pytorch
+tqdm
