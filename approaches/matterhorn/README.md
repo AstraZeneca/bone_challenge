@@ -97,16 +97,15 @@ Number of workers for the DataLoader.
 #!/bin/bash
 
 # Define variables
-# Mofify paths if required
-
-NII_PATH="test-data/workstream-2/*.nii"
+MODEL_PATH="/home/ec2-user/SageMaker/test-data/workstream-2/"
+NII_PATH="/home/ec2-user/SageMaker/test-data/workstream-2/*.nii"
 
 MODEL_FILES=(
-    "fold_0_epoch_1978_model_best_val_score_0.591_val_loss_10.1503.pt"
-    "fold_1_epoch_1710_model_best_val_score_0.566_val_loss_11.6527.pt"
-    "fold_2_epoch_806_model_best_val_score_0.602_val_loss_17.8721.pt"
-    "fold_3_epoch_887_model_best_val_score_0.553_val_loss_23.7504.pt"
-    "fold_4_epoch_1844_model_best_val_score_0.586_val_loss_16.3064.pt"
+    "models/fold_0_epoch_1978_model_best_val_score_0.591_val_loss_10.1503.pt"
+    "models/fold_1_epoch_1710_model_best_val_score_0.566_val_loss_11.6527.pt"
+    "models/fold_2_epoch_806_model_best_val_score_0.602_val_loss_17.8721.pt"
+    "models/fold_3_epoch_887_model_best_val_score_0.553_val_loss_23.7504.pt"
+    "models/fold_4_epoch_1844_model_best_val_score_0.586_val_loss_16.3064.pt"
 )
 
 # Loop through each model file and run the prediction
@@ -133,6 +132,18 @@ python evaluate.py results.csv y_true_test_only_preds.csv
 
 The output obtained from evaluate is:
 
-Mean Score: 0.6823739184113682
-Standard Deviation of Score: 0.3344550579689162
-Sum of Scores: 8.870860939347786
+Mean Score: 0.682
+Standard Deviation of Score: 0.334
+Sum of Scores: 8.87
+
+
+
+| Arch | Size | Mean scr | Std scr | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 |
+|------|------|----------|---------|--------|--------|--------|--------|--------|
+| B0   | 300  |  0.578   |  0.017  |  0.605 |  0.577 |  0.580 |  0.559 |  0.570 |
+| B1   | 300  |  0.604   |  0.053  |  0.667 |  0.616 |  0.585 |  0.626 |  0.526 | 
+| B2   | 300  |  0.587   |  0.022  |  0.573 |  0.560 |  0.611 |  0.581 |  0.609 |
+| B3   | 300  |  0.580   |  0.020  |  0.591 |  0.566 |  0.602 |  0.553 |  0.586 |
+| B4   | 300  |  0.590   |  0.033  |  0.629 |  0.569 |  0.564 |  0.622 |  0.565 |
+| B4   | 380  |  0.585   |  0.046  |  0.589 |  0.623 |  0.514 |  0.574 |  0.627 |
++-------------------------------------------------------------------------------+
