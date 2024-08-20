@@ -1,0 +1,3 @@
+[submodule "approaches/bytemeifyoucan/icop-challenge-2024"]
+	path = approaches/bytemeifyoucan/icop-challenge-2024
+	url = git@github.com:azu-oncology-rd/icop-challenge-2024.git
