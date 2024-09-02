@@ -130,7 +130,7 @@ python evaluate.py results.csv y_true_test_only_preds.csv
 
 ## Test results
 
-The output obtained from evaluate is:
+The output obtained from test set evaluation using B3-300 is:
 
 Mean Score: 0.682
 Standard Deviation of Score: 0.334
@@ -146,4 +146,3 @@ Sum of Scores: 8.87
 | B3   | 300  |  0.580   |  0.020  |  0.591 |  0.566 |  0.602 |  0.553 |  0.586 |
 | B4   | 300  |  0.590   |  0.033  |  0.629 |  0.569 |  0.564 |  0.622 |  0.565 |
 | B4   | 380  |  0.585   |  0.046  |  0.589 |  0.623 |  0.514 |  0.574 |  0.627 |
-+-------------------------------------------------------------------------------+
