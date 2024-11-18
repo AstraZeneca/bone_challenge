@@ -1,9 +1,9 @@
 {
-  "annotation_file": "/scratch/BoneAI/test.csv",
-  "img_dir": "/scratch/BoneAI/task2_test/images_3d/",
+  "annotation_file": "test_set/test.csv",
+  "img_dir": "test_set/images_3d/",
   "batch_size": 16,
   "stride": 32,
   "seq_len": 64,
-  "checkpoints_dir": "/projects/img/marija/in_vivo/boneai/bone-ai/weights_3dwindow_paper/",
-  "output_folder": "/projects/img/marija/in_vivo/boneai/bone-ai/predictions"
+  "checkpoints_dir": "weights_3dwindow_paper/",
+  "output_folder": "predictions"
 }

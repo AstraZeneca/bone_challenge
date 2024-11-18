@@ -1,4 +1,4 @@
-name: /projects/img/marija/conda_envs/bone-ai
+name: bone-ai
 channels:
   - numerics88
   - conda-forge
@@ -246,4 +246,3 @@ dependencies:
     - widgetsnbextension==3.5.2
     - wrapt==1.16.0
     - zipp==3.15.0
-prefix: /projects/img/marija/conda_envs/bone-ai

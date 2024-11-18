@@ -1,9 +1,9 @@
 {
-  "pretrained_weights_backbone": "/projects/img/marija/in_vivo/boneai/bone-ai/weights/resnet_34.pth",
+  "pretrained_weights_backbone": "weights/resnet_34.pth",
   "pretrained_weights": null,
-  "annotation_file": "/scratch/BoneAI/train_with_folds.csv",
-  "img_dir": "/scratch/BoneAI/task2/images_3d/",
-  "output_folder": "/projects/img/marija/in_vivo/boneai/bone-ai/weights_3dwindow_paper",
+  "annotation_file": "train_set/train_with_folds.csv",
+  "img_dir": "train_set/images_3d/",
+  "output_folder": "weights_3dwindow_paper",
   "max_epoch": 500,
   "print_frequency": 1,
   "batch_size": 16,
