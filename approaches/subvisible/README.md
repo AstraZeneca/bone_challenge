@@ -54,7 +54,7 @@ from models import *
 data=pd.read_csv('path/to/csv.csv')
 train(data, cls_checkpoint, log_path)
 """
-cls_checkpoint: Path to the trained model for the classification (from previous part) 
+cls_checkpoint: Path to the trained model for the classification (from the previous part) 
 log_path: Path to a directory for saving logs and checkpoints. Logs get saved in the 'logs' subfolder and checkpoints in the 'checkpoints' subfolder. There will be separate folders for each fold 
 """
 ```
