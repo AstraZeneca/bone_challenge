@@ -55,7 +55,9 @@ data=pd.read_csv('path/to/csv.csv')
 train(data, cls_checkpoint, log_path)
 """
 cls_checkpoint: Path to the trained model for the classification (from the previous part) 
-log_path: Path to a directory for saving logs and checkpoints. Logs get saved in the 'logs' subfolder and checkpoints in the 'checkpoints' subfolder. There will be separate folders for each fold 
+log_path: Path to a directory for saving logs and checkpoints. Logs get saved in the 'logs'
+          subfolder and checkpoints in the 'checkpoints' subfolder. There will be separate
+          folders for each fold 
 """
 ```
 
@@ -67,7 +69,8 @@ result=make_prediction(path, cls_checkpoint_filepath, reg_checkpoints_dir)
 parameters:
   path: Path to a directory containing .nii images
   cls_checkpoint_filepath: Path to the trained model for the classification
-  reg_checkpoints_dir: Path to the trained regression models, this will be log_path (from the previous part) + 'checkpoints/'
+  reg_checkpoints_dir: Path to the trained regression models, this will be
+                       log_path (from the previous part) + 'checkpoints/'
 returns:
 a dataframe containing image names and their predicted growth plate index
 """
