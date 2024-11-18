@@ -20,3 +20,7 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 <p align="center">
   <img src="SV_NetConfig.png" alt="Figure 2" width="500"/>
 </p>
+
+
+## Installation
+pip install -r requirements.txt
