@@ -36,11 +36,11 @@ classifier = ImageClassifier()
 classifier.train_cls(trn_folder, val_folder, logdir, checkpoint_filepath)
 
 """trn_folder: Path to the training folder. This folder should contain two subfolders: 
-  - `1`: For positive images
-  - `0`: For negative images
+  - "1": For positive images
+  - "0": For negative images
 val_folder: Path to the validation folder. This folder should also contain two subfolders:
-  - `1`: For positive images
-  - `0`: For negative images
+  - "1": For positive images
+  - "0": For negative images
 logdir: Path to a directory for saving logs.
 checkpoint_filepath: Path to a directory for saving the trained model."""
 ```
@@ -52,7 +52,6 @@ checkpoint_filepath: Path to a directory for saving the trained model."""
 from models import *
 data=pd.read_csv('path/to/csv.csv')
 train(data, cls_checkpoint, log_path)
-
 """
 cls_checkpoint: Path to the trained model for the classification (from previous part) 
 log_path: Path to a directory for saving logs and checkpoints. Logs get saved in the 'logs' subfolder and checkpoints in the 'checkpoints' subfolder. There will be separate folders for each fold 
@@ -64,7 +63,10 @@ log_path: Path to a directory for saving logs and checkpoints. Logs get saved in
 from models import *
 result=make_prediction(path, cls_checkpoint_filepath, reg_checkpoints_dir)
 """
-path: Path to a directory containing .nii images
-cls_checkpoint_filepath: Path to the trained model for the classification
-reg_checkpoints_dir: Path to the trained regression models, this will be log_path (from the previous part) + 'checkpoints/'
+parameters:
+  path: Path to a directory containing .nii images
+  cls_checkpoint_filepath: Path to the trained model for the classification
+  reg_checkpoints_dir: Path to the trained regression models, this will be log_path (from the previous part) + 'checkpoints/'
+returns:
+a dataframe containing image names and their predicted growth plate index
 """
