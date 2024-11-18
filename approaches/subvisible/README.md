@@ -13,12 +13,14 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 <a id="figure-1"></a>
 ### Figure 1
-![Figure 1](SV.png)
+<p align="center">
+  <img src="SV.png" alt="Figure 1" width="500"/>
+</p>
 
 <a id="figure-2"></a>
 ### Figure 2
 <p align="center">
-  <img src="SV_NetConfig.png" alt="Figure 2" width="500"/>
+  <img src="SV_NetConfig.png" alt="Figure 2" width="400"/>
 </p>
 
 
