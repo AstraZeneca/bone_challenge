@@ -25,10 +25,30 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 
 ## Installation
+Make sure you have the required dependencies installed:
 `pip install -r requirements.txt`
 
 ## Training
 
 ``` python
 from models import *
+classifier = ImageClassifier()
+classifier.train_cls(trn_folder, val_folder, logdir, checkpoint_filepath)
 
+### Parameters
+
+- **trn_folder**: Path to the training folder. This folder should contain two subfolders: 
+  - `folder 1`: For positive images
+  - `folder 0`: For negative images
+- **val_folder**: Path to the validation folder. This folder should also contain two subfolders:
+  - `folder 1`: For positive images
+  - `folder 0`: For negative images
+- **logdir**: Path to a directory for saving logs.
+- **checkpoint_filepath**: Path to a directory for saving the trained model.
+
+### Example
+
+# trn_folder : path to the training folder which should include two folders one for positive images (folder 1) and one for negative images (folder 0)
+# val_folder : path to the training folder which should include two folders one for positive images (folder 1) and one for negative images (folder 0)
+# logdir : path to a directory for saving logs
+# checkpoint_filepath : path to a directory for saving the trained model
