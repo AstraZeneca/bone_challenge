@@ -17,6 +17,6 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 <a id="figure-2"></a>
 ### Figure 2
-<div style="text-align: center;">
+<center>
   <img src="SV_NetConfig.png" alt="Figure 2" width="500"/>
-</div>
+</center>
