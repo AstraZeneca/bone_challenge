@@ -29,6 +29,6 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 ## Training
 
-```
+``` python
 from models import *
 
