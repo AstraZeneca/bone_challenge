@@ -13,7 +13,7 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 <a id="figure-1"></a>
 ### Figure 1
-![Figure 1](Subvisible1.png)
+![Figure 1](SV.png)
 
 <a id="figure-2"></a>
 ### Figure 2
