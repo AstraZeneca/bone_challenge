@@ -26,3 +26,9 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 
 ## Installation
 `pip install -r requirements.txt`
+
+## Training
+
+```
+from models import *
+
