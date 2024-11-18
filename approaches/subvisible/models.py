@@ -286,7 +286,6 @@ def make_prediction(path, cls_checkpoint_filepath, reg_checkpoints_dir):
     fn = glob.glob(os.path.join(path, '*.nii'))
     pgpi = []
     names = []
-    #checkpoint_filepath = '/home/ec2-user/SageMaker/shared/teams/Subvisible/logs/checkpoints/CLS2_CleanData_Light/'
     classifier = ImageClassifier()
     model_cls = classifier.create_cls_model()
     model_cls.load_weights(cls_checkpoint_filepath)
