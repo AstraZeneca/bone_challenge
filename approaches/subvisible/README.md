@@ -14,7 +14,7 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 <a id="figure-1"></a>
 ### Figure 1
 <p align="center">
-  <img src="SV.png" alt="Figure 1" width="500"/>
+  <img src="SV.png" alt="Figure 1" width="800"/>
 </p>
 
 <a id="figure-2"></a>
