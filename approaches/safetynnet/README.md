@@ -24,7 +24,7 @@ python scripts/train_3dwindow_CV.py --config configs/config_train.json
 Paths in the config should be adapted for the input data paths.
 The script runs 5-fold CV where folds are defined in the input train_with_folds.csv file.
 
-Initial ResNet34 weights can be downloaded from[MedicalNet](https://github.com/Tencent/MedicalNet)
+Initial ResNet34 weights can be downloaded from [MedicalNet](https://github.com/Tencent/MedicalNet)
 
 
 # Inference
