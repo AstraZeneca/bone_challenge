@@ -28,7 +28,7 @@ Figure [1](#figure-1) shows the overall diagram of our proposed approach. Consid
 Make sure you have the required dependencies installed:
 `pip install -r requirements.txt`
 
-## Training
+## Training the classifier
 
 ``` python
 from models import *
@@ -43,3 +43,28 @@ val_folder: Path to the validation folder. This folder should also contain two s
   - `0`: For negative images
 logdir: Path to a directory for saving logs.
 checkpoint_filepath: Path to a directory for saving the trained model."""
+```
+
+## Training the regressors
+### It is assumed that the image paths and their labeled growth plate indices, along with their assigned folds for training, are saved in a CSV file. Please ensure the column names are "Growth Plate Index", "image_path", and "fold".
+
+``` python
+from models import *
+data=pd.read_csv('path/to/csv.csv')
+train(data, cls_checkpoint, log_path)
+
+"""
+cls_checkpoint: Path to the trained model for the classification (from previous part) 
+log_path: Path to a directory for saving logs and checkpoints. Logs get saved in the 'logs' subfolder and checkpoints in the 'checkpoints' subfolder. There will be separate folders for each fold 
+"""
+```
+
+## Inference
+``` python
+from models import *
+result=make_prediction(path, cls_checkpoint_filepath, reg_checkpoints_dir)
+"""
+path: Path to a directory containing .nii images
+cls_checkpoint_filepath: Path to the trained model for the classification
+reg_checkpoints_dir: Path to the trained regression models, this will be log_path (from the previous part) + 'checkpoints/'
+"""
