@@ -70,7 +70,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch-size", type=int, default=16, help="Batch size")
     parser.add_argument("--nr-val-eval", type=int, default=3, help="Number of validation evaluations per axis")
     parser.add_argument("--model-type", choices=["B1", "B2", "B3", "B4", "B5", "B6", "B7"], default="B3", help="Model type")
-    parser.add_argument("--nii-path", type=str, default="/scratch/kmmg694/BoneAI/task2/images_3d/*.nii", help="Path to NII files")
+    parser.add_argument("--nii-path", type=str, default="", help="Path to NII files")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--train-mode", choices=["full", "half"], default="half", help="Training mode: full or half precision")
     parser.add_argument("--planes-index-selection", choices=["random", "consecutive"], default="random", help="")

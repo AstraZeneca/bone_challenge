@@ -97,8 +97,8 @@ Number of workers for the DataLoader.
 #!/bin/bash
 
 # Define variables
-MODEL_PATH="/home/ec2-user/SageMaker/test-data/workstream-2/"
-NII_PATH="/home/ec2-user/SageMaker/test-data/workstream-2/*.nii"
+MODEL_PATH=""
+NII_PATH=""
 
 MODEL_FILES=(
     "models/fold_0_epoch_1978_model_best_val_score_0.591_val_loss_10.1503.pt"
