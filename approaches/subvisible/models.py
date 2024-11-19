@@ -310,7 +310,7 @@ def make_prediction(path, cls_checkpoint_filepath, reg_checkpoints_dir):
         img_array = np.expand_dims(img_array, axis=0)
         p = []
         for fold in range(5):
-            checkpoint_filepath = os.path.join(reg_checkpoints_dir, f'Fold{fold}_OM_Epoch120/')
+            checkpoint_filepath = os.path.join(reg_checkpoints_dir, f'Fold{fold}/')
             model_reg.load_weights(checkpoint_filepath)
             pred = model_reg.predict(img_array, verbose=0)
             p.append(pred[0][0])
