@@ -1,4 +1,5 @@
-# 3D Image Processing and Analysis
+# Code Warriors 2 Approach
+## 3D Image Processing and Analysis
 
 This repository provides tools for preprocessing, training, and prediction using 3D medical images. It includes scripts for configuring, slicing, and analyzing the images to study tissue characteristics.
 

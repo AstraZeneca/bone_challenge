@@ -1,4 +1,6 @@
-# README: 2.5D BoneNet Training and Prediction
+# Exploding Kittens Approach
+
+## 2.5D BoneNet Training and Prediction
 
 This repository provides scripts for training a model and predicting bone growth plate indices from 3D bone scans using a 2.5D approach.
 

@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This repository contains a modularized script that our team used to solve the **Workstream 2** of the **Image Collaboratorium Challenge 2024**. Our approach involved using a deep learning model based on the EfficientNet family of models to predict the growth plane of a bone using NIfTI (nii) files. The project includes customizable parameters for various hyperparameters, allowing for different approaches to solving the problem.
+This repository contains a modularized script that our team used to solve the Bone Challenge. Our approach involved using a deep learning model based on the EfficientNet family of models to predict the growth plane of a bone using NIfTI (nii) files. The project includes customizable parameters for various hyperparameters, allowing for different approaches to solving the problem.
 
 ## 🌟 Features
 - **EfficientNet Models**: Utilizes the EfficientNet family for building the deep learning models.
