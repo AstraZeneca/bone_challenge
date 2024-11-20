@@ -3,7 +3,7 @@
 
 The repository has the source code for 6 solutions developed by 6 teams in Anonymous Company internal challenge on detecting the growth plate plane index (GPPI) in 3D micro-CT mice bones.
 
-For the challenge, we prepared and annotated a unique high quality micro-CT 3D bone imaging dataset from 83 mice [[dataset](models.md)]. 
+For the challenge, we prepared and annotated a unique high quality micro-CT 3D bone imaging dataset from 83 mice [[dataset](data.md)]. 
 
 We will release all training and test data to facilitate reproducibility and farther model development.
 
