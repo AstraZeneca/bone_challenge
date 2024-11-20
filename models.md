@@ -16,10 +16,8 @@ Here is a full list of the models trained that will be available in the folder `
   - fold_1_epoch_1710_model_best_val_score_0.566_val_loss_11.6527.pt
   - fold_3_epoch_887_model_best_val_score_0.553_val_loss_23.7504.pt
   - fold_2_epoch_806_model_best_val_score_0.602_val_loss_17.8721.pt
-
 3. CW:
   - model_20240520_093559_14
-
 4. BM: 
   - 0/model_20240520_093559_14.pth
   - 1/model_20240520_093559_14.pth
