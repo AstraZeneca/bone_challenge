@@ -1,7 +1,5 @@
-from src.utils import get_metadata
-from src.preprocess import BoneProcessor
-from src.dataset import BoneDataModule
-from src.model import BoneNet
+from approaches.explodingkittens.src import get_metadata
+from approaches.explodingkittens.src.preprocess import BoneProcessor
 
 import argparse
 import numpy as np
@@ -11,8 +9,8 @@ import albumentations as A
 from lightning.pytorch.loggers import CSVLogger
 from lightning.pytorch.callbacks import LearningRateMonitor
 
-from src.dataset import BoneDataModule
-from src.model import BoneNet
+from approaches.explodingkittens.src import BoneDataModule
+from approaches.explodingkittens.src import BoneNet
 
 
 def main():

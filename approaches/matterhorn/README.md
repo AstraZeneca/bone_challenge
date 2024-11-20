@@ -1,4 +1,4 @@
-#  🏆 Image Collaboratorium Challenge 2024 - WS 2 🏆
+#  🏆 Matternhorn Approach 🏆
 
 ## 📋 Overview
 

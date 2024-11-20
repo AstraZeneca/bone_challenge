@@ -7,9 +7,9 @@ import pandas as pd
 from pathlib import Path
 import numpy as np
 
-from src.utils import get_all_images
-from src.model import BoneNet
-from src.inference import BoneDatasetTest, ensemble_predict
+from approaches.explodingkittens.src import get_all_images
+from approaches.explodingkittens.src import BoneNet
+from approaches.explodingkittens.src import BoneDatasetTest, ensemble_predict
 
 
 def main():

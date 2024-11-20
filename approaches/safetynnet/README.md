@@ -1,4 +1,4 @@
-# Growth plate plane detection
+# SafetyNNet Approach
 3D Convolutional sliding window approach is used to detect growth plate plane in 3D micro CT images in mice.
 ![architecture](images/Network+Loss.png)
 

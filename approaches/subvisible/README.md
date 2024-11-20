@@ -1,4 +1,4 @@
-# Subvisible
+# Subvisible Approach
 
 # A parameter efficient solution for automatic growth plate detection in micro-CT mice bone scans
 
@@ -8,8 +8,6 @@ To refine these initial estimates, we leveraged information on the axial axis an
 
 
 Figure [1](#figure-1) shows the overall diagram of our proposed approach. Considering the limited amount of training data, we trained two lightweight CNN networks for both the classification and regression tasks. Each network as shown in Figure [2](#figure-2) has only four levels of convolution layers and less than 40K parameters in total. These lightweight networks, along with resizing the images to 96×96 before feeding them to the models, make the training process quite fast. The loss function for the classification network is cross-entropy loss, and the negative of the score function is used as the loss function for the regression network.
-
-
 
 <a id="figure-1"></a>
 ### Figure 1
