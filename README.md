@@ -10,12 +10,12 @@ The code has both training scripts as well as scripts for the inference using th
 The approaches per team are in ..`/approaches/teamname`
 
 The six approaches are from the following teams:
- - `Byte me if you can` or BM team [[description](approaches/bytemeifyoucan/README.md)][[code](approaches/bytemeifyoucan/)][[model](models.md)];
- - `Code Warriors 2`or CW team [[description](approaches/code-warriors2/README.md)][[code](approaches/code-warriors2/)][[model](models.md)];
- - `Exploding Kittens` or EK team [[description](approaches/explodingkittens/README.md)][[code](approaches/explodingkittens/)][[model](models.md)];
- - `Matterhorn` or MH team [[description](approaches/matterhorn/README.md)][[code](approaches/matterhorn/)][[model](models.md)];
- - `SafetyNNet` or SN team [[description](approaches/safetynnet/README.md)][[code](approaches/safetynnet/)][[model](models.md)];
- - `Subvisible` or SV team [[description](approaches/subvisible/README.md)][[code](approaches/subvisible/)][[model](models.md)];
+  - `SafetyNNet` or SN team [[description](approaches/safetynnet/README.md)][[code](approaches/safetynnet/)][[model](models.md)];
+  - `Matterhorn` or MH team [[description](approaches/matterhorn/README.md)][[code](approaches/matterhorn/)][[model](models.md)];
+  - `Exploding Kittens` or EK team [[description](approaches/explodingkittens/README.md)][[code](approaches/explodingkittens/)][[model](models.md)];
+  - `Code Warriors 2`or CW team [[description](approaches/code-warriors2/README.md)][[code](approaches/code-warriors2/)][[model](models.md)];
+  - `Subvisible` or SV team [[description](approaches/subvisible/README.md)][[code](approaches/subvisible/)][[model](models.md)];
+  - `Byte me if you can` or BM team [[description](approaches/bytemeifyoucan/README.md)][[code](approaches/bytemeifyoucan/)][[model](models.md)];
 
 We will also release all training and test data to facilitate reproducibility and farther development.
 
