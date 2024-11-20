@@ -1,4 +1,4 @@
-# Bytemeif youcan (BM) approach
+# Byte me if you can (BM) approach
 
 The model trained as one of the six solutions in MiceBoneChallenge.
 
