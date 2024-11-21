@@ -1,7 +1,5 @@
 All models trained and used for reporting the results in the paper are in the shared folder `models`.
 
-For the review, we shared only one model by MH team in folder `models/MH`. All other models will be shared if the paper is accepted.
-
 Here is a full list of the models trained that will be available in the folder `models`:
 
 1. SN:
