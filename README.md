@@ -14,7 +14,7 @@ The six approaches are from the following six teams:
   - `SafetyNNet` or SN team [[description](approaches/safetynnet/README.md)][[code](approaches/safetynnet/)][[model](models/models.md)];
   - `Matterhorn` or MH team [[description](approaches/matterhorn/README.md)][[code](approaches/matterhorn/)][[model](models/models.md)];
   - `Exploding Kittens` or EK team [[description](approaches/explodingkittens/README.md)][[code](approaches/explodingkittens/)][[model](models/models.md)];
-  - `Code Warriors 2`or CW team [[description](approaches/code-warriors2/README.md)][[code](approaches/code-warriors2/)][[model](models/models.md)];
+  - `Code Warriors 2` or CW team [[description](approaches/code-warriors2/README.md)][[code](approaches/code-warriors2/)][[model](models/models.md)];
   - `Subvisible` or SV team [[description](approaches/subvisible/README.md)][[code](approaches/subvisible/)][[model](models/models.md)];
   - `Byte me if you can` or BM team [[description](approaches/bytemeifyoucan/README.md)][[code](approaches/bytemeifyoucan/)][[model](models/models.md)];
 
